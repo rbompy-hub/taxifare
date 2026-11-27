@@ -1,2 +1,2 @@
 run-api:
-		uv run uvicorn api.app:app
+		uv run uvicorn api.fast:app

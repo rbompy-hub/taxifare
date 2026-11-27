@@ -7,4 +7,3 @@ docker_build_local:
 
 docker-run :
 		docker run -it -p 8080:8080 ${DOCKER_ID}
- //uh

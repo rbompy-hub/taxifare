@@ -17,7 +17,7 @@ def root():
     return {"wsh" : coup_de_pouce}
 
 
-@app.get("/prediction")
+@app.get("/predict")
 def dummy(pickup_datetime: str, pickup_longitude: float, pickup_latitude: float, dropoff_longitude: float, dropoff_latitude: float, passenger_count: int):
     """model prediction"""
     X_pred = pd.DataFrame({

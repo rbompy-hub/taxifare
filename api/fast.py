@@ -31,4 +31,4 @@ def dummy(pickup_datetime: str, pickup_longitude: float, pickup_latitude: float,
 
     y_pred = predict(model, X_pred)
 
-    return {"reponse" : float(y_pred.item())}
+    return {"fare" : float(y_pred.item())}

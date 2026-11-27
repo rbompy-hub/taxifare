@@ -1,3 +1,12 @@
-.venv/
-notebooks/
-src/taxifare/__pycache__/
+rb-notebooks/*
+/rb-notebooks
+models/*
+.venv/*
+*.ipynb
+__pycache__
+
+
+rb-notebooks/rb-datascientist_deliverable.ipynb
+rb-notebooks/
+
+src/taxifare/__pycache__

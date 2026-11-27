@@ -9,13 +9,14 @@ authors = [
 requires-python = ">=3.12"
 dependencies = [
     "db-dtypes>=1.9.0",
-    "google>=3.0.0",
-    "google-cloud>=0.34.0",
+    "fastapi>=0.165.0",
     "google-cloud-bigquery>=3.47.0",
     "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
     "pandas<3",
     "scikit-learn>=1.9.1",
     "seaborn>=0.13.2",
+    "uvicorn>=0.54.0",
 ]
 
 [project.scripts]

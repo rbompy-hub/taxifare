@@ -9,4 +9,4 @@ __pycache__
 rb-notebooks/rb-datascientist_deliverable.ipynb
 rb-notebooks/
 
-src/taxifare/__pycache__
+__pycache__/
